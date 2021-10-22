@@ -33,11 +33,11 @@ function PostForm({ state, createPost, updatePost }) {
 
     if (success) {
         alert('Transaccion exitosa');
-        return <Redirect to="/users" />
+        return <Redirect to="/posts" />
     }
     else if (failure) {
         alert('Fallo en la transaccion');
-        return <Redirect to="/users" />
+        return <Redirect to="/posts" />
     }
 
     return (
